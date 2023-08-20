@@ -1,0 +1,42 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Search results */
+.video-list {
+    list-style: none;
+    padding: 0;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.video img {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.video h3 {
+    margin: 0;
+}
