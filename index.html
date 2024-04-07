@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("#video-list").hide();
+            });
+            $("#show").click(function () {
+                $("#video-list").show();
+            });
+        });
+
+        //remove result
+        $(document).ready(function () {
+            $("#remove").click(function () {
+                $("#video-list").remove();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container" >
+        <h1 >YouTube က Video တွေရှာကြည့် ကြမယ်</h1>
+        <form id="search-form">
+            <input type="text" id="search-query" placeholder="Search videos...">
+            <button type="submit">Search</button>
+        </form>
+
+    
+        <div id="space"></div>
+        <div>
+            <button id="hide">Hide Result</button>
+            <button id="show">Show Result</button>
+            <button id="remove">Remove Result</button>
+        </div>
+        <div id="video-list" class="video-list"></div>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- jquery to hide result -->
+
+
+
+    <div>
+        <p id="one"> develop by Nay Win Aung / နေဝင်းအောင် </p>
+
+
+    </div>
+
+
+</body>
+
+</html>
